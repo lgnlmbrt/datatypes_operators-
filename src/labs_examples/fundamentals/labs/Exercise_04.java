@@ -16,6 +16,9 @@ public class Exercise_04 {
         System.out.println("int i is: " + i);
 
         // write your code below
+        int a = 2;
+        int b = 3;
+        System.out.println(a+b);
 
     }
 
