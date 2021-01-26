@@ -17,6 +17,12 @@ public class Exercise_01 {
     public static void main(String[] args) {
 
         // write code here
+        int hour = 12;
+        double weight = 135.20;
+        char firstLetter = 'L';
+        System.out.println(hour);
+        System.out.println(weight);
+        System.out.println(firstLetter);
 
     }
 }
