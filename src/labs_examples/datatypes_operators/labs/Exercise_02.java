@@ -24,6 +24,15 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+        int hours = 10;
+        long time = hours;
+        float minutes = time;
+        double weeks = minutes;
+        System.out.println(weeks);
+
+        double x = 10.5;
+        int y = (int)x;
+        System.out.println(y);
 
     }
 }
