@@ -18,6 +18,20 @@ class LogicalOperators {
         }
 
         // write your code below
+        boolean c = true;
+        boolean d = false;
+
+        if(c&d)
+            System.out.println("this will not print");
+        if(c^d)
+            System.out.println("printing...");
+        if(c|d)
+            System.out.println("one or the other");
+        if(c&&true)
+            System.out.println("I think I understand");
+        if(d||true)
+            System.out.println("I get it");
+
 
     }
 

@@ -13,6 +13,21 @@ public class Exercise_06 {
     public static void main(String[] args) {
 
         // write code here
+        //A=2πrh+2πr^2
+
+        double pi = 3.14;
+        double piSquared = pi*pi;
+        double radius = pi;
+        double height = 5.0;
+        //area = 2*pi*radius*height+2*pi*piSquared
+        double area = 2*pi*radius*height+2*pi*piSquared;
+        System.out.println(area);
+        float area1 = (float)area;
+        long area2 = (long)area1;
+        int theArea = (int)area2;
+        System.out.println(theArea);
+
+
 
     }
 }
