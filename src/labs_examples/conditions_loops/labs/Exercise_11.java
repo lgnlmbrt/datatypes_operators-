@@ -22,5 +22,16 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_11 {
+    public static void main(String[] args) {
+        String table = "";
+        for(int i = 1;i<=10;i++){
+            String line = "";
+            for(int b =1;b<=10;b++){
+                line = line + i*b + " |";
+            }
+            table = table + line + "\n";
+        }
+        System.out.println(table);
+    }
 
 }

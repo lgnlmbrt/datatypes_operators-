@@ -12,6 +12,46 @@ package labs_examples.conditions_loops.labs;
  *              - ie: String vowels = "aeiou";
  *
  */
-
+import java.util.Scanner;
 public class Exercise_07 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter word");
+        String word = scanner.nextLine();
+
+        boolean foundFirstVowel = false;
+        int charIndex = 0;
+        while(foundFirstVowel == false){
+            char c = word.charAt(charIndex);
+            if(c == 'a'){
+                System.out.println(word);
+                System.out.println('a');
+                foundFirstVowel = true;
+            }
+            else if(c=='e'){
+                System.out.println(word);
+                System.out.println('e');
+                foundFirstVowel = true;
+            }
+            else if(c=='i') {
+                System.out.println(word);
+                System.out.println('i');
+                foundFirstVowel = true;
+            }
+            else if(c=='o') {
+                System.out.println(word);
+                System.out.println('o');
+                foundFirstVowel = true;
+            }
+            else if(c=='u') {
+                System.out.println(word);
+                System.out.println('u');
+                foundFirstVowel = true;
+            }
+            else if(charIndex == word.length()){
+                break;
+            }
+            charIndex++;
+        }
+    }
 }
