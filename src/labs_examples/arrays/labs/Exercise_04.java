@@ -9,5 +9,14 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
-
+    public static void main(String[] args) {
+        int[][] twoDArray = new int[2][2];
+        for (int i = 0; i < twoDArray.length; i++) {
+            for (int x = 0; x < twoDArray.length; x++) {
+                twoDArray[i][x] = i * x;
+                System.out.println(twoDArray[i][x] + " " + " | ");
+            }
+            System.out.println();
+        }
+    }
 }
